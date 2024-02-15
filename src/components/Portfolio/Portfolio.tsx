@@ -1,11 +1,5 @@
 import PortItem from "../PortItem/PortItem";
 import styles from "./Portfolio.module.css";
-import todolistimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/todolistthumb.png";
-import crossopdimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/crossopdthumb.png";
-import ecomimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/ecomthumb.png";
-import ewedimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/ewedthumb.png";
-import pokedeximg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/pokedexthumb.png";
-import socialthumb from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/socialmediathimb.png";
 
 const Portfolio = () => {
   return (
@@ -16,14 +10,14 @@ const Portfolio = () => {
           title="E-wedding card"
           url1="https://ohm0025.github.io/e-wedding-card/"
           url2="https://github.com/Ohm0025/e-wedding-card"
-          img={ewedimg}
+          img={"https://img5.pic.in.th/file/secure-sv1/ewedthumb.png"}
         />
 
         <PortItem
           title="E-commerce web"
           url1="https://ohm0025.github.io/ecommerce-project/"
           url2="https://github.com/Ohm0025/ecommerce-project"
-          img={ecomimg}
+          img={"https://img5.pic.in.th/file/secure-sv1/ecomthumb.png"}
         />
 
         <PortItem
@@ -31,7 +25,7 @@ const Portfolio = () => {
           url1="https://youtu.be/m_E1fErcWS4"
           url2="https://github.com/Ohm0025/social-media-react"
           urlApi="https://github.com/Ohm0025/social-media-api"
-          img={socialthumb}
+          img={"https://img2.pic.in.th/pic/socialmediathimb.png"}
         />
 
         <PortItem
@@ -39,14 +33,14 @@ const Portfolio = () => {
           url1="https://youtu.be/wv3Rl34TUOk?si=Waq7ScHtKm3rruD0"
           url2="https://github.com/Ohm0025/cross-opd-react"
           urlApi="https://github.com/Ohm0025/cross-opd-api"
-          img={crossopdimg}
+          img={"https://img2.pic.in.th/pic/crossopdthumb.png"}
         />
 
         <PortItem
           title="PokeDex"
           url1="https://poke-dex-cyan.vercel.app/"
           url2="https://github.com/Ohm0025/pokeDex"
-          img={pokedeximg}
+          img={"https://img2.pic.in.th/pic/pokedexthumb.png"}
         />
 
         <PortItem
@@ -54,7 +48,7 @@ const Portfolio = () => {
           url1="https://youtu.be/tpsSFZJZ_VA"
           url2="https://github.com/Ohm0025/simple-todo-list"
           urlApi="https://github.com/Ohm0025/todo-list-api"
-          img={todolistimg}
+          img={"https://img5.pic.in.th/file/secure-sv1/todolistthumb.png"}
         />
       </div>
     </div>
