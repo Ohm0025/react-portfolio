@@ -11,13 +11,13 @@
   }
   & .services_list {
     display: flex;
-    margin-top: 110px;
+    margin-top: 60px;
     justify-content: center;
+    gap: 30px;
 
     & .services_items {
-      width: 250px;
-      margin: 0 50px;
-
+      width: 28%;
+      padding: 0 10px;
       & svg {
         width: 80px;
         height: 80px;
@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .services_con {
     height: auto !important;
 

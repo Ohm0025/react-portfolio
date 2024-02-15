@@ -3,7 +3,7 @@ import styles from "./Portfolio.module.css";
 
 const Portfolio = () => {
   return (
-    <div className={styles.port_con}>
+    <div id="portfolio" className={styles.port_con}>
       <h1 className={styles.port_title}>Portfolio</h1>
       <div className={styles.port_list}>
         <PortItem

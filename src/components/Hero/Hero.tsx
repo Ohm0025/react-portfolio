@@ -1,11 +1,11 @@
 import styles from "./Hero.module.css";
-import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 import Tilt from "react-parallax-tilt";
 
 const Hero = () => {
   return (
-    <div className={styles.hero_wrapper}>
+    <div id="hero" className={styles.hero_wrapper}>
       <div className={styles.container}>
         <div className={styles.hero_con}>
           <div className={styles.hero_info}>
@@ -39,18 +39,8 @@ const Hero = () => {
             </p>
             <ul className={styles.hero_social}>
               <li>
-                <a href="#">
+                <a href="https://github.com/Ohm0025" target="blank">
                   <FaGithub />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <FaFacebookF />
                 </a>
               </li>
             </ul>

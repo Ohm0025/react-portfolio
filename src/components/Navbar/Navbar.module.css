@@ -1,7 +1,12 @@
 nav {
   background-color: var(--primary-color);
   overflow: hidden;
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 0 5px;
 
   & a {
     color: white;
@@ -62,6 +67,12 @@ nav {
         color: #333;
       }
     }
+  }
+}
+
+@media screen and (max-width: 546px) {
+  & .button {
+    font-size: 10px;
   }
 }
 

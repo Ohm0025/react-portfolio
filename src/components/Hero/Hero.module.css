@@ -1,5 +1,5 @@
 .hero_wrapper {
-  height: 580px;
+  height: auto;
   overflow: hidden;
 
   & .container {
@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 115px;
+    margin-bottom: 68px;
 
     & .text_1 {
       font-size: 32px;
@@ -64,18 +65,38 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .hero_wrapper {
     height: auto;
 
     & .hero_con {
-      flex-direction: column;
+      flex-direction: column-reverse;
       margin: 50px 0;
       padding: 20px;
 
-      & .hero_img,
       & .hero_info {
         width: 100%;
+      }
+      & .hero_img {
+        margin: 0 auto;
+      }
+
+      & .hero_social {
+        justify-content: center;
+      }
+      & .text_1 {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      & .text_2 {
+        text-align: center;
+      }
+      & .text_3 {
+        text-align: center;
+      }
+      & .text_4 {
+        margin: 15px auto;
       }
     }
   }

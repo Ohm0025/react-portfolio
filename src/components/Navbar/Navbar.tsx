@@ -12,23 +12,23 @@ const Navbar = () => {
       <div className={styles.container}>
         <div className={styles.nav_con}>
           <div className={styles.logo}>
-            <a href="#">OHM PORT</a>
+            <a href="#hero">OHM PORT</a>
           </div>
 
           <ul>
             <li>
-              <a href="#">Skills</a>
+              <a href="#skill">Skills</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#resume">Resume</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
           </ul>
 
           <div className={styles.button}>
-            <a href="#">Hire me</a>
+            <a href="#contact">Contact me</a>
           </div>
         </div>
 
@@ -38,17 +38,17 @@ const Navbar = () => {
           <>
             <ul className={styles.mobile_menu}>
               <li>
-                <a href="#">Skills</a>
+                <a href="#skill">Skills</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a href="#resume">Resume</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
             </ul>
             <div className={styles.mobile_button}>
-              <a href="#">Hire me</a>
+              <a href="#contact">Contact me</a>
             </div>
           </>
         ) : null}

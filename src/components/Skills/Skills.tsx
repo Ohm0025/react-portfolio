@@ -13,7 +13,7 @@ import { SiTailwindcss, SiMysql } from "react-icons/si";
 
 const Skill = () => {
   return (
-    <div className={styles.skills_con}>
+    <div id="skill" className={styles.skills_con}>
       <h3 className={styles.skills_title}>My Skill Set</h3>
       <ul className={styles.skills_list}>
         <li>
