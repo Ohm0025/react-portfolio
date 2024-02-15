@@ -1,6 +1,6 @@
 import PortItem from "../PortItem/PortItem";
 import styles from "./Portfolio.module.css";
-import todolistimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/todolistthumb.png";
+import todolistimg from "public/thumbnail/todolistthumb.png";
 import crossopdimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/crossopdthumb.png";
 import ecomimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/ecomthumb.png";
 import ewedimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/ewedthumb.png";
