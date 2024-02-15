@@ -26,9 +26,16 @@ const Hero = () => {
               />
             </p>
             <p className={styles.text_4}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-              fugiat commodi <br /> quas cupiditate minus dolore nulla eos
-              accusantium labore explicabo.
+              Passionate and dedicated professional with a diverse background in
+              healthcare and technology. With three years of experience as a
+              doctor in a local hospital, I have developed strong
+              problem-solving skills, attention to detail, and a commitment to
+              providing exceptional care to patients. Seeking a new career path,
+              I have successfully completed the 'Westride Bootcamp,' honing my
+              skills in full-stack development and preparing myself for the
+              challenges and opportunities of the tech industry. With a blend of
+              medical expertise and newfound tech proficiency, I am poised to
+              bring a unique perspective to the field of full-stack development.
             </p>
             <ul className={styles.hero_social}>
               <li>

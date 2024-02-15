@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
-import Number from "./components/Number/Number";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Number from "./components/Number/Number";
+// import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
@@ -42,8 +42,8 @@ function App() {
       <Skills />
       <Services />
       <Portfolio />
-      <Number />
-      <Testimonials />
+      {/* <Number />
+      <Testimonials /> */}
       <Contact />
       <Footer />
     </>

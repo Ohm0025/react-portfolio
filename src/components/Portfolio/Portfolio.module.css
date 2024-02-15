@@ -16,6 +16,11 @@
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
 
+    & .port_subitems {
+      display: flex;
+      justify-content: space-around;
+    }
+
     & .port_items {
       margin-top: 60px;
 

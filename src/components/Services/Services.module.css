@@ -1,5 +1,5 @@
 .services_con {
-  height: 600px;
+  min-height: 600px;
   background-color: #fff;
   text-align: center;
   overflow: hidden;
@@ -29,6 +29,41 @@
         font-size: 24px;
         font-weight: bold;
         margin: 25px 0;
+      }
+
+      & h5 {
+        font-size: 20px;
+      }
+
+      & h6 {
+        font-size: 15px;
+      }
+
+      & p {
+        text-align: justify;
+      }
+
+      & ul {
+        list-style-type: number;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      & .services_subitems {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        & .education {
+          text-align: center;
+        }
+      }
+
+      & .services_groupItem {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
       }
     }
   }
