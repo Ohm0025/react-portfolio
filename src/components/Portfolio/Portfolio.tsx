@@ -1,11 +1,11 @@
 import PortItem from "../PortItem/PortItem";
 import styles from "./Portfolio.module.css";
-import todolistimg from "public/thumbnail/todolistthumb.png";
-import crossopdimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/crossopdthumb.png";
-import ecomimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/ecomthumb.png";
-import ewedimg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/ewedthumb.png";
-import pokedeximg from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/pokedexthumb.png";
-import socialthumb from "/Users/apple/Desktop/westride/new-portfolio/public/thumbnail/socialmediathimb.png";
+import todolistimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/todolistthumb.png";
+import crossopdimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/crossopdthumb.png";
+import ecomimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/ecomthumb.png";
+import ewedimg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/ewedthumb.png";
+import pokedeximg from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/pokedexthumb.png";
+import socialthumb from "/Users/apple/Desktop/westride/new-portfolio/src/thumbnail/socialmediathimb.png";
 
 const Portfolio = () => {
   return (
