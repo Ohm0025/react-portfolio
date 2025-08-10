@@ -18,7 +18,9 @@ const Portfolio = () => {
           url1="https://text-counter-iota.vercel.app/"
           url2="https://github.com/Ohm0025/text-counter.git"
           urlApi="https://github.com/Ohm0025/ielts-writing-api.git"
-          img={"https://pic.in.th/image/Screenshot-2025-08-10-173155.cnUfGC"}
+          img={
+            "https://img5.pic.in.th/file/secure-sv1/Screenshot-2025-08-10-173155.png"
+          }
         />
 
         <PortItem
@@ -26,7 +28,7 @@ const Portfolio = () => {
           url1="https://ohello-frontend.vercel.app/"
           url2="https://github.com/Porramat081/ohello-frontend"
           urlApi="https://github.com/Porramat081/ohello-api"
-          img={"/image/ohmSocia.png"}
+          img={"https://img2.pic.in.th/pic/social9fa38d56c2cb0f2c.png"}
         />
 
         <PortItem
@@ -34,7 +36,7 @@ const Portfolio = () => {
           url1="https://youtu.be/wv3Rl34TUOk?si=Waq7ScHtKm3rruD0"
           url2="https://github.com/Ohm0025/cross-opd-react"
           urlApi="https://github.com/Ohm0025/cross-opd-api"
-          img={"https://img5.pic.in.th/file/secure-sv1/crossopdthumb.png"}
+          img={"https://img2.pic.in.th/pic/doctor4bfba563fcb9a36c.png"}
         />
 
         <PortItem
@@ -42,7 +44,7 @@ const Portfolio = () => {
           url1="https://ohmkahnwald.com/"
           url2="https://github.com/Ohm0025/ohmkahnwald-react"
           urlApi="https://github.com/Ohm0025/ohmkahnwald-api"
-          img={"https://pic.in.th/image/Screenshot-2025-08-10-161006.cnUmXv"}
+          img={"https://img2.pic.in.th/pic/Screenshot-2025-08-10-161006.png"}
         />
 
         <PortItem
@@ -61,3 +63,6 @@ export default Portfolio;
 
 // https://pic.in.th/image/Screenshot-2025-08-10-161006.cnUmXv
 // https://pic.in.th/image/Screenshot-2025-08-10-173155.cnUfGC
+
+// https://img2.pic.in.th/pic/Screenshot-2025-08-10-161006.png
+// https://img5.pic.in.th/file/secure-sv1/Screenshot-2025-08-10-173155.png
