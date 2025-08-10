@@ -14,13 +14,7 @@ const Hero = () => {
             <p className={styles.text_3}>
               <span style={{ marginRight: "10px" }}>I'm a</span>
               <TypeAnimation
-                sequence={[
-                  // Same substring at the start will only be typed out once, initially
-                  "Full-stack Developer",
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  "Web Developer",
-                  1000,
-                ]}
+                sequence={["Full-stack Developer", 1000, "Web Developer", 1000]}
                 speed={50}
                 repeat={Infinity}
               />
@@ -41,6 +35,12 @@ const Hero = () => {
               <li>
                 <a href="https://github.com/Ohm0025" target="blank">
                   <FaGithub />
+                  <span>Ohm0025</span>
+                </a>
+                <span style={{ margin: "20px" }}>or</span>
+                <a href="https://github.com/Porramat081" target="blank">
+                  <FaGithub />
+                  <span>Porramat081</span>
                 </a>
               </li>
             </ul>

@@ -14,18 +14,19 @@ const Portfolio = () => {
         />
 
         <PortItem
-          title="E-commerce web"
-          url1="https://ohm0025.github.io/ecommerce-project/"
-          url2="https://github.com/Ohm0025/ecommerce-project"
-          img={"https://img5.pic.in.th/file/secure-sv1/ecomthumb.png"}
+          title="IELTs AI Checker"
+          url1="https://text-counter-iota.vercel.app/"
+          url2="https://github.com/Ohm0025/text-counter.git"
+          urlApi="https://github.com/Ohm0025/ielts-writing-api.git"
+          img={"public/image/ieltCal.png"}
         />
 
         <PortItem
-          title="Social media web"
-          url1="https://youtu.be/m_E1fErcWS4"
-          url2="https://github.com/Ohm0025/social-media-react"
-          urlApi="https://github.com/Ohm0025/social-media-api"
-          img={"https://img2.pic.in.th/pic/socialmediathimb.png"}
+          title="Ohello Social Media"
+          url1="https://ohello-frontend.vercel.app/"
+          url2="https://github.com/Porramat081/ohello-frontend"
+          urlApi="https://github.com/Porramat081/ohello-api"
+          img={"public/image/ohmSocia.png"}
         />
 
         <PortItem
@@ -33,19 +34,20 @@ const Portfolio = () => {
           url1="https://youtu.be/wv3Rl34TUOk?si=Waq7ScHtKm3rruD0"
           url2="https://github.com/Ohm0025/cross-opd-react"
           urlApi="https://github.com/Ohm0025/cross-opd-api"
-          img={"https://img2.pic.in.th/pic/crossopdthumb.png"}
+          img={"public/image/crossopdthumb.png"}
         />
 
         <PortItem
-          title="PokeDex"
-          url1="https://poke-dex-cyan.vercel.app/"
-          url2="https://github.com/Ohm0025/pokeDex"
-          img={"https://img2.pic.in.th/pic/pokedexthumb.png"}
+          title="Ohmkahnwald"
+          url1="https://ohmkahnwald.com/"
+          url2="https://github.com/Ohm0025/ohmkahnwald-react"
+          urlApi="https://github.com/Ohm0025/ohmkahnwald-api"
+          img={"public/image/ohmBlog.png"}
         />
 
         <PortItem
           title="Simple todo list"
-          url1="https://youtu.be/tpsSFZJZ_VA"
+          url1=""
           url2="https://github.com/Ohm0025/simple-todo-list"
           urlApi="https://github.com/Ohm0025/todo-list-api"
           img={"https://img5.pic.in.th/file/secure-sv1/todolistthumb.png"}
